@@ -14,6 +14,9 @@ main {
     margin-right: auto;
     width: 50%;
   }
+#Google-Logo {
+    max-width: 272px;
+}
 
 .search-bar {
     flex: 1;
@@ -24,6 +27,7 @@ main {
 button{
     background: rgb(221, 221, 221);
     padding: 5px 10px;
+    display: block;
 }
 
 .grid-1 {
