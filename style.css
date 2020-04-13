@@ -13,10 +13,12 @@ main {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    align-items: flex-start;
   }
 #Google-Logo {
     max-width: 272px;
 }
+
 
 .search-bar {
     flex: 1;
@@ -27,14 +29,12 @@ main {
 button{
     background: rgb(221, 221, 221);
     padding: 5px 10px;
-    display: block;
+    display: inline;
+    margin-top: 25px;
+    margin-left: 5em;
 }
 
-.grid-1 {
-    display: grid;
-    grid-template-columns: 150px 150px 150px;
-    grid-template-rows: auto auto auto;
-}
+
 
 footer {
     position: absolute;
