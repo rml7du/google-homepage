@@ -2,10 +2,13 @@ nav {
 margin: 10px;
 top: 0px;
 position: fixed;
+margin-bottom: 50px;
 }
 main {
-    position: relative;
+    position: fixed;
     min-height: 100vh;
+    margin-top: 150px;
+    margin-left: 25em;
 }
 
 .center {
@@ -13,11 +16,12 @@ main {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
     align-items: flex-start;
   }
-#Google-Logo {
-    max-width: 272px;
+
+#google-logo {
+    width: 272px;
 }
 
 
@@ -25,14 +29,14 @@ main {
     flex: 1;
     display: flex;
     padding: 5px 8px 0 16px;
-    padding-left: 14px;
+    margin-top: 15em;
 }
 button{
     background: rgb(221, 221, 221);
     padding: 5px 10px;
-    display: inline;
+    display: inline-block;
     margin-top: 25px;
-    margin-left: 25em;
+    
 }
 
 
