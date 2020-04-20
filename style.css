@@ -2,7 +2,6 @@ nav {
 margin: 10px;
 top: 10px;
 position: fixed;
-background-color: red;
 }
 
 main {
@@ -22,7 +21,7 @@ main {
 
 #google-logo {
     width: 272px;
-}5
+}
 
 
 .search-bar {
@@ -30,7 +29,6 @@ main {
     display: flex;
     padding: 5px 8px 0 16px;
     margin-top: 15em;
-    width: 
 }
 
 button{
