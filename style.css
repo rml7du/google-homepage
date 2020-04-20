@@ -1,28 +1,28 @@
 nav {
 margin: 10px;
-top: 0px;
+top: 10px;
 position: fixed;
-margin-bottom: 50px;
+background-color: red;
 }
+
 main {
     position: fixed;
+    width: 100vw;
     min-height: 100vh;
     margin-top: 150px;
-    margin-left: 25em;
 }
 
 .center {
-    top: 30px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-    align-items: flex-start;
+    width: 272px;
+    
   }
 
 #google-logo {
     width: 272px;
-}
+}5
 
 
 .search-bar {
@@ -30,15 +30,18 @@ main {
     display: flex;
     padding: 5px 8px 0 16px;
     margin-top: 15em;
+    width: 
 }
+
 button{
     background: rgb(221, 221, 221);
     padding: 5px 10px;
     display: inline-block;
-    margin-top: 25px;
-    
+    margin-top: 25px;   
 }
-
+button:last-child {
+    margin-left: 25px;
+}
 
 
 footer {
